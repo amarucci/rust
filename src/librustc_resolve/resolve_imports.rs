@@ -1302,7 +1302,6 @@ impl<'a, 'b:'a, 'c: 'b> ImportResolver<'a, 'b, 'c> {
                                                        "consider making the enum public",
                                                        suggestion);
                         err.emit();
-                    }
                 }
             }
         }
